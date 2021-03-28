@@ -23,8 +23,11 @@
     "price": {
       "type": "biginteger"
     },
-    "price2": {
-      "type": "biginteger"
+    "width": {
+      "type": "float"
+    },
+    "lengt": {
+      "type": "float"
     }
   }
 }
