@@ -34,17 +34,6 @@
     },
     "phoneNumber": {
       "type": "string"
-    },
-    "avatar": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false
     }
   }
 }
