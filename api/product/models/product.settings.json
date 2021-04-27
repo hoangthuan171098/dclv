@@ -23,11 +23,22 @@
     "price": {
       "type": "biginteger"
     },
-    "width": {
-      "type": "float"
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     },
-    "lengt": {
-      "type": "float"
+    "colors": {
+      "type": "json"
+    },
+    "rollSizes": {
+      "type": "json"
     }
   }
 }
