@@ -26,6 +26,14 @@
     },
     {
       "method": "POST",
+      "path": "/product-upload",
+      "handler": "product.uploadImg",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
       "path": "/products",
       "handler": "product.create",
       "config": {
