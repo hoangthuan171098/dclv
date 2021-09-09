@@ -12,13 +12,30 @@
   },
   "attributes": {
     "status": {
-      "type": "string"
+      "type": "enumeration",
+      "enum": [
+        "checking",
+        "comfirmed",
+        "delivering",
+        "delivered"
+      ]
     },
     "productList": {
-      "type": "string"
+      "type": "json"
+    },
+    "note": {
+      "type": "text"
     },
     "creator": {
-      "type": "string"
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "divide_orders": {
+      "collection": "order"
+    },
+    "buyer": {
+      "plugin": "users-permissions",
+      "model": "user"
     }
   }
 }
