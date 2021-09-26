@@ -36,9 +36,6 @@
     },
     "colors": {
       "type": "json"
-    },
-    "rollSizes": {
-      "type": "json"
     }
   }
 }

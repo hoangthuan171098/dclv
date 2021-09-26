@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "orders",
+  "collectionName": "shipments",
   "info": {
-    "name": "order",
+    "name": "shipment",
     "description": ""
   },
   "options": {
@@ -11,31 +11,28 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "productList": {
-      "type": "json"
-    },
-    "note": {
-      "type": "text"
-    },
-    "creator": {
+    "shipper": {
       "plugin": "users-permissions",
       "model": "user"
     },
-    "divide_orders": {
-      "collection": "order"
+    "productList": {
+      "type": "json"
+    },
+    "status": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
     },
     "buyer": {
       "plugin": "users-permissions",
       "model": "user"
     },
-    "status": {
+    "orderID": {
       "type": "string"
     },
-    "shipments": {
-      "collection": "shipment"
-    },
-    "remainProductList": {
-      "type": "json"
+    "theLast": {
+      "type": "boolean"
     }
   }
 }
