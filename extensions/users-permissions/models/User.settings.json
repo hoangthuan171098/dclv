@@ -69,6 +69,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "transections": {
+      "via": "buyer",
+      "model": "transections"
     }
   }
 }

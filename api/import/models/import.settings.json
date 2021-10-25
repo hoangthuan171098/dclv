@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "imports",
+  "info": {
+    "name": "import",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "creator": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "productList": {
+      "type": "json"
+    },
+    "from": {
+      "type": "string"
+    },
+    "note": {
+      "type": "text"
+    }
+  }
+}

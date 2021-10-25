@@ -36,6 +36,10 @@
     },
     "remainProductList": {
       "type": "json"
+    },
+    "transection": {
+      "via": "order",
+      "model": "transections"
     }
   }
 }

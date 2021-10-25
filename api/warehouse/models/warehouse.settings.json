@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "warehouses",
+  "info": {
+    "name": "warehouse",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "product": {
+      "unique": true,
+      "model": "product"
+    },
+    "quantity": {
+      "type": "json"
+    }
+  }
+}

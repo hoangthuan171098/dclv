@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exports",
+  "info": {
+    "name": "export"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "creator": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "productList": {
+      "type": "json"
+    },
+    "to": {
+      "type": "string"
+    },
+    "note": {
+      "type": "text"
+    }
+  }
+}

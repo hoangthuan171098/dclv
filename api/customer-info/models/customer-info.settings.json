@@ -34,6 +34,18 @@
     },
     "phoneNumber": {
       "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "wards": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
     }
   }
 }
