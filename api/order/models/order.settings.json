@@ -38,8 +38,11 @@
       "type": "json"
     },
     "transection": {
-      "via": "order",
-      "model": "transections"
+      "model": "transections",
+      "via": "order"
+    },
+    "doneReason": {
+      "type": "text"
     }
   }
 }

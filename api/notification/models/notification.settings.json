@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "notifications",
+  "info": {
+    "name": "notification",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "to": {
+      "plugin": "users-permissions",
+      "model": "user"
+    },
+    "hrefTo": {
+      "type": "string"
+    },
+    "isread": {
+      "type": "boolean"
+    }
+  }
+}
