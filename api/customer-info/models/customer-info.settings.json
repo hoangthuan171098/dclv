@@ -46,6 +46,16 @@
     },
     "street": {
       "type": "string"
+    },
+    "debtAble": {
+      "type": "boolean",
+      "default": false
+    },
+    "maxDebt": {
+      "type": "biginteger"
+    },
+    "debt": {
+      "type": "biginteger"
     }
   }
 }
