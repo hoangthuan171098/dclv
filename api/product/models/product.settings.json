@@ -36,6 +36,12 @@
     },
     "colors": {
       "type": "json"
+    },
+    "width": {
+      "type": "decimal"
+    },
+    "height": {
+      "type": "decimal"
     }
   }
 }

@@ -14,7 +14,7 @@
     "name": {
       "type": "string"
     },
-    "descripton": {
+    "description": {
       "type": "text"
     }
   }

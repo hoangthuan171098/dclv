@@ -23,11 +23,6 @@
     "address": {
       "type": "richtext"
     },
-    "buyer": {
-      "plugin": "users-permissions",
-      "model": "user",
-      "via": "transections"
-    },
     "order": {
       "via": "transection",
       "model": "order"
